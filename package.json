@@ -1,18 +1,18 @@
 {
-  "name": "blk-design-system-react",
+  "name": "neo-great",
   "version": "1.2.1",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "React version of neo great website",
   "main": "index.js",
-  "author": "Creative Tim",
+  "author": "kingneo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
+    "url": "git+https://kingneo12.github.io/neo-great/.git"
   },
   "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
+    "url": "https://kingneo12.github.io/neo-great/issues"
   },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
+  "homepage": "https://kingneo12.github.io/neo-great/",
   "keywords": [
     "react",
     "reactjs",
@@ -51,6 +51,7 @@
     "react-scripts": "^5.0.1",
     "reactstrap": "8.7.1",
     "sass": "1.54.0",
+    "three": "^0.153.0",
     "web-vitals": "2.1.4"
   },
   "peerDependencies": {
@@ -62,6 +63,8 @@
     "typescript": "4.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
