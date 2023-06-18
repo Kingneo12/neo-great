@@ -40,14 +40,14 @@ import Footer from "components/Footer/Footer.js";
 import bigChartData from "variables/charts.js";
 import Examples from "views/IndexSections/Examples.js";
 
-import './style.css'
+import "assets/css/blk-design-system-react.css"
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'dat.gui'
+//import * as dat from 'dat.gui'
 
 
 // Debug
-const gui = new dat.GUI()
+//const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -58,14 +58,28 @@ const scene = new THREE.Scene()
 // Objects
 const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
 
+const particleGeometry = new THREE.BufferGeometry;
+const particlesCnt = 5000;
+
+const posArray = new Float32Array(particlesCnt * 3);
+for(let i = 0; i < particlesCnt * 3; i++){
+  // posArray[i] = Math.random()
+  //posArray[i] = Math.random() - 0.5
+  posArray[i] = Math.random() - 0.5 * 5
+}
+
+particleGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3))
+
 // Materials
 
-const material = new THREE.MeshBasicMaterial()
-material.color = new THREE.Color(0xff0000)
+const material = new THREE.PointsMaterial({
+  size: 0.005
+})
 
 // Mesh
-const sphere = new THREE.Mesh(geometry,material)
-scene.add(sphere)
+const sphere = new THREE.Points(geometry, material)
+const particleMesh = new THREE.Points(particleGeometry, material)
+scene.add(sphere, particleMesh)
 
 // Lights
 
