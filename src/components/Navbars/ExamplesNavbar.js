@@ -4,9 +4,9 @@
 * BLK Design System React - v1.2.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
+* Product Page: https://www.creative-tim.com/product/system-react
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/system-react/blob/main/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -166,7 +166,7 @@ export default function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
+              <NavLink href="https://github.com/creativetimofficial/system-react/issues">
                 Have an issue?
               </NavLink>
             </NavItem>

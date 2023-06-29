@@ -20,8 +20,8 @@
 
 ### Major style changes
 
-- Remove `src/assets/scss/blk-design-system-react/bootstrap` folder and start using the `node_modules/bootstrap` one
-- Add `src/assets/scss/blk-design-system-react/react/_custom-forms.scss` for usage of Bootstrap Switch / Reactstrap CustomInput of type switch
+- Remove `src/assets/scss/system-react/bootstrap` folder and start using the `node_modules/bootstrap` one
+- Add `src/assets/scss/system-react/react/_custom-forms.scss` for usage of Bootstrap Switch / Reactstrap CustomInput of type switch
 
 ### Deleted components
 
@@ -82,16 +82,16 @@ npm WARN create-react-context@0.3.0 requires a peer of react@^0.14.0 || ^15.0.0 
 ### Bug fixing
 
 - Github
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/8
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/7
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/5
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/4
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/2
-  - https://github.com/creativetimofficial/blk-design-system-react/issues/1
+  - https://github.com/creativetimofficial/system-react/issues/8
+  - https://github.com/creativetimofficial/system-react/issues/7
+  - https://github.com/creativetimofficial/system-react/issues/5
+  - https://github.com/creativetimofficial/system-react/issues/4
+  - https://github.com/creativetimofficial/system-react/issues/2
+  - https://github.com/creativetimofficial/system-react/issues/1
 
 ### Major style changes
 
-- `src/assets/scss/blk-design-system-react/react/plugins/_plugin-nouislider.scss`
+- `src/assets/scss/system-react/react/plugins/_plugin-nouislider.scss`
 
 ### Deleted components
 

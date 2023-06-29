@@ -29,7 +29,7 @@
     "blk-system",
     "blk-system-react",
     "blk-design-system",
-    "blk-design-system-react"
+    "system-react"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "5.16.4",
@@ -70,8 +70,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
-    "minify-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --style compressed"
+    "compile-sass": "sass src/assets/scss/system-react.scss src/assets/css/system-react.css",
+    "minify-sass": "sass src/assets/scss/system-react.scss src/assets/css/system-react.min.css --style compressed"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,117 @@
+/*!
+
+=========================================================
+* BLK Design System React - v1.2.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/system-react
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/system-react/blob/main/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+$asset-base-path: "assets" !default;
+
+// Core
+
+@import "../scss/system-react/custom/functions";
+@import "~bootstrap/scss/functions";
+
+@import "../scss/system-react/custom/variables";
+@import "~bootstrap/scss/variables";
+
+@import "../scss/system-react/custom/mixins";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Custom components
+
+@import "../scss/system-react/custom/alerts.scss";
+@import "../scss/system-react/custom/buttons.scss";
+@import "../scss/system-react/custom/dropdown.scss";
+@import "../scss/system-react/custom/footer.scss";
+@import "../scss/system-react/custom/forms.scss";
+@import "../scss/system-react/custom/images.scss";
+@import "../scss/system-react/custom/modal.scss";
+@import "../scss/system-react/custom/navbar.scss";
+@import "../scss/system-react/custom/type.scss";
+@import "../scss/system-react/custom/icons.scss";
+@import "../scss/system-react/custom/tables";
+@import "../scss/system-react/custom/checkboxes-radio";
+@import "../scss/system-react/custom/fixed-plugin";
+@import "../scss/system-react/custom/pagination.scss";
+@import "../scss/system-react/custom/misc.scss";
+@import "../scss/system-react/custom/rtl.scss";
+@import "../scss/system-react/custom/input-group.scss";
+@import "../scss/system-react/custom/example-pages.scss";
+@import "../scss/system-react/custom/progress.scss";
+@import "../scss/system-react/custom/badge.scss";
+@import "../scss/system-react/custom/pills.scss";
+@import "../scss/system-react/custom/tabs.scss";
+@import "../scss/system-react/custom/info-areas.scss";
+
+// Sections
+@import "../scss/system-react/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "../scss/system-react/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "../scss/system-react/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "../scss/system-react/custom/vendor/plugin-bootstrap-switch.scss";
+@import "../scss/system-react/custom/vendor/plugin-nouislider.scss";
+@import "../scss/system-react/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "../scss/system-react/custom/card";
+@import "../scss/system-react/custom/cards/card-chart";
+@import "../scss/system-react/custom/cards/card-map";
+@import "../scss/system-react/custom/cards/card-user";
+@import "../scss/system-react/custom/cards/card-task";
+@import "../scss/system-react/custom/cards/card-register";
+@import "../scss/system-react/custom/cards/card-stats";
+@import "../scss/system-react/custom/cards/card-chart";
+
+// React Differences
+
+@import "../scss/system-react/react/react-differences";

@@ -4,9 +4,9 @@
 * BLK Design System React - v1.2.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
+* Product Page: https://www.creative-tim.com/product/system-react
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/system-react/blob/main/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -38,7 +38,7 @@ export default function NucleoIcons() {
               <Button
                 className="btn-round"
                 color="primary"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons"
+                href="https://demos.creative-tim.com/system-react/#/documentation/icons"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -58,7 +58,7 @@ export default function NucleoIcons() {
           </Col>
         </Row>
         <div className="blur-hover">
-          <a href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons">
+          <a href="https://demos.creative-tim.com/system-react/#/documentation/icons">
             <div className="icons-container blur-item on-screen mt-5">
               {/* Center */}
               <i className="icon tim-icons icon-coins" />
