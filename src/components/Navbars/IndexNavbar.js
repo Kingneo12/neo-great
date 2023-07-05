@@ -106,7 +106,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a to="/home" tag={Link} onClick={(e) => e.preventDefault()}>
-                N°Grāt
+                Neo°Grāt
                 </a>
               </Col>
             </Row>

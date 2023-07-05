@@ -119,7 +119,7 @@ export default function Examples() {
                 <img
                   alt="..."
                   className="img-raised"
-                  src={require("assets/img/installation.jpg")}
+                  src={require("assets/img/installation.png")}
                 />
               </Link>
               <Button
